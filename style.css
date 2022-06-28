@@ -1,0 +1,104 @@
+.container {
+    margin: auto;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    margin-top: -300px;
+}
+
+body {
+    background: url('photosta.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 1000px;
+}
+
+.block {
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 50px;
+    padding: 10px 10px;
+    text-align: left;
+    width: 720px;
+    height: 400px;
+}
+
+p {
+    color: black;
+    font-size: xx-large;
+}
+
+.map {
+    margin-right: 50px;
+    margin-left: 50;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.sidenav {
+    height: 600px;
+    width: 200px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin-top: -750px;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.sidenav a {
+    padding: 100px 5px 50px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: block;
+}
+
+.sidenavb {
+    height: 600px;
+    width: 200px;
+    position: relative;
+    margin-top: -605px;
+    background-color: white;
+    overflow-x: hidden;
+    margin-left: 75%;
+    border: 3px black solid;
+    border-radius: 20px;
+}
+
+.sidenavb a {
+    padding: 100px 5px 50px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: block;
+}
+
+header {
+    margin-top: 60px;
+}
+
+li {
+    list-style-type: disc;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 6px;
+    border-bottom: dotted 1px grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: peachpuff;
+}
